@@ -1,6 +1,3 @@
-
-@import "{{ site.theme }}";
-
-header {
-  display: none;
-}
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
